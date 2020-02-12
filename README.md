@@ -5,7 +5,7 @@
 - Flash [sketch_sender.ino](/sketch_sender.ino) on your Arduino Nano that is connected to a radio sender.
 - Run [funk.py](/funk.py) which listens to the mqtt topic `funk`.
 - Enable autostart
-  - Add the file `funk.service` under `/lib/systemd/system` with permission 644:
+  - Add the file `funk.service` under `/lib/systemd/system` with permission 755:
     ```
     [Unit]
     Description=Funk
